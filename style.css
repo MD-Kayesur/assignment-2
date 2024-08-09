@@ -1,0 +1,188 @@
+body {
+    background-color: rgb(27, 26, 26);
+    color: white;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+/* ---------- navigation bars style ------- */
+
+ 
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px 190px;
+   
+
+}
+
+.nav-bar-right {
+    color: #E6533C;
+}
+
+.nav-bar-left ul {
+    display: flex;
+    gap: 47px;
+    border: #565454 solid .5px;
+    padding: 4px;
+    border-radius: 50px;
+    background-color: black;
+   
+}
+ 
+  
+.nav-bar-left li {
+
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 8px 20px;
+
+
+}
+.nav-bar-left li:nth-child(1){
+    background-color: #E6533C;
+}
+
+ 
+
+.nav-bar-left li a {
+
+    color: white;
+}
+
+/* - ---=====================----------------nave card styles ----======================-- - */
+
+#nav-card{
+    display: flex;
+    padding:   0px  190px 0px 0px ; 
+   justify-content: space-between;
+    gap: 167px;
+    flex-wrap: wrap;
+    margin:50px 24px 0px  190px;
+    
+}
+#nav-card .text-card{
+     
+    margin:  95px 0px 0px 0px
+
+
+}
+ #nav-card .text-card span{
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+.text-card h1{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+     font-size: 40px;
+     margin-top: -100px;
+    
+}
+.text-card .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 30px;
+   
+   
+}
+.text-card button{
+      
+    padding: 16px 40px;
+     
+    background-color: black;
+    border: white solid 1px;
+    border-radius: 50px;
+    color: white;
+}
+.text-card .buttons .join-button{
+    background-color: #E6533C;
+}
+.img-card{
+    position: relative;
+    margin: -95px -80px 0px 0px
+     
+}
+.img-card .workout  {
+    position:absolute;
+    background-color: #abaaaa;
+    border-radius: 12px;
+    z-index: 1;
+    top:150px;
+    right: -50px;
+    line-height: 1px;
+   
+   
+}
+.img-card .workout h1{
+    padding:17px 53px 0px 24px ;
+   ;
+     
+}
+.img-card .workout p{
+    padding: 0px 23px 16px 24px;
+}
+ 
+.img-card img{
+    width:350px;
+    height: 580px;
+}
+.img-card .tutorial{
+    position: absolute;
+    background-color: #abaaaa;
+    border-radius: 12px;
+    left: -72px;
+    bottom: 63px;
+    line-height: 1px;
+    z-index: 2;
+}
+.img-card .tutorial h1{
+    padding:17px 53px 0px 24px ;
+}
+.img-card .tutorial p{
+    padding: 0px 23px 16px 24px;
+}
+
+/*--------------------- hatits styles---------------------- */
+
+.habits{
+    margin:   91px  191px 0px 198px ; 
+}
+ .habits .habite-text{
+    text-align: center;
+ }
+.habits .habite-text h1{
+   margin-bottom: 0px;
+    font-size: 50px;
+}
+ 
+.habits .habit-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top:  50px;
+    
+    justify-content:space-evenly;
+
+     
+}
+.habit-cards .habits-card {
+    text-align: center;
+    
+}
+.habit-cards .habits-card img{
+    border-radius: 100px;
+    padding:  0px 15px;
+}
+.habit-cards .habits-card h1{
+    margin :30px 0px 0px 0px;
+}
+ 
+ 
