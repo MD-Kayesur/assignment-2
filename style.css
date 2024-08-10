@@ -34,6 +34,8 @@ body {
     background-color: black;
    
 }
+
+
  
   
 .nav-bar-left li {
@@ -115,6 +117,7 @@ body {
 }
 .text-card .buttons .join-button{
     background-color: #E6533C;
+    border: none;
 }
 .img-card{
     width: 10%;
@@ -134,8 +137,7 @@ body {
     z-index: 1;
     top: 126px;
     right: -50px ;
-    left: -50px;
-     
+    left: -50px; 
     line-height: 1px;
    
    
@@ -216,7 +218,78 @@ body {
     margin :30px 0px 0px 0px;
     
 }
+.habit-cards .habits-card p{
+     margin-top: 6px;
+}
 
 
+/* -----------=====================runs styles---------------============================= */
  
+.run{
+    display: flex;
+    padding:   0px  130px 0px 0px ; 
+    margin:50px  0px 0px  190px;
+    gap: 165px; 
+    justify-content: space-between; 
+    align-items: center;
+}
+.run .run-text{
+    padding: 40px 0px 40px 54px;
+}
+.run .run-text h1{
+    font-size: 50px;
+    font-weight:443px;
+    margin-bottom: 0px;
+}
+
+
+.run .run-text .join-button{ 
+    padding: 16px 71px; 
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 16px 40px;
+    background-color: #E6533C;
+     
+         
+    }
  
+.run  .run-img{
+   
+    padding: 30px 32px 29px 0px;
+}
+.run   img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+
+/* ======================= ---exercise styles---------======== */
+
+ .exercise{
+    padding:   0px  130px 0px 0px ; 
+    margin:50px  0px 0px  190px;
+    text-align: start;
+     
+ }
+ .exercise .exercise-imgs {
+    /* display: flex;
+    flex-wrap: wrap; */
+     
+    
+ }
+ .exercise .exercise-imgs .img-card{
+    position: relative;
+ }
+ .exercise .exercise-imgs .img-card  .img{
+    position: absolute;
+ }
+ .exercise .exercise-imgs .img-card  .img p{
+    z-index: 1;
+    color: black;
+ }
+ 
+ .exercise .exercise-imgs .img-card  img{
+    width: 366px;
+    height: 312px;
+ }
