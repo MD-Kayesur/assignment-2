@@ -451,12 +451,14 @@ form button {
 
 .team-imgs {
     display: grid;
+    justify-content: center;
+    align-items: center;
     margin-top: 58px;
     grid-template-columns: repeat(3, 2fr);
     grid-gap: 1em;
     background-color: #b4b0b0;
     padding: 20px;
-    margin-right: -100px;
+    margin-right: -70px;
     border-radius: 18px;
 }
 
