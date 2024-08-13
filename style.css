@@ -7,17 +7,18 @@ body {
     list-style: none;
     text-decoration: none;
 }
+
 /* ---------- navigation bars style ------- */
 
- 
+
 .nav-bar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding:  57px 130px;
-     
-   
+    padding: 57px 130px;
+
+
 
 }
 
@@ -32,12 +33,12 @@ body {
     padding: 4px;
     border-radius: 50px;
     background-color: black;
-   
+
 }
 
 
- 
-  
+
+
 .nav-bar-left li {
 
     color: rgb(255, 255, 255);
@@ -46,11 +47,12 @@ body {
 
 
 }
-.nav-bar-left li:nth-child(1){
+
+.nav-bar-left li:nth-child(1) {
     background-color: #E6533C;
 }
 
- 
+
 
 .nav-bar-left li a {
 
@@ -59,104 +61,115 @@ body {
 
 /* - ---=====================----------------nave card styles ----======================-- - */
 
-#nav-card{
+#nav-card {
     display: flex;
-     
-    padding:   0px  130px 0px 0px ; 
-    margin:50px  0px 0px  190px;
-   justify-content: space-between;
-  
+
+    padding: 0px 130px 0px 0px;
+    margin: 50px 0px 0px 190px;
+    justify-content: space-between;
+
     gap: 167px;
     /* 167 */
     flex-wrap: wrap;
-   
-   
+
+
 }
-#nav-card .text-card{
-     width:  50%;
-    margin:  95px 0px 0px -50px ;
-     
-    
+
+#nav-card .text-card {
+    width: 50%;
+    margin: 95px 0px 0px -50px;
+
+
 }
- #nav-card .text-card span{
+
+#nav-card .text-card span {
     font-family: "Grey Qo", cursive;
     font-weight: 400;
     font-style: normal;
-  }
- 
-.text-card h1{
+}
+
+.text-card h1 {
     font-family: "PT Serif", serif;
     font-weight: 700;
     font-style: normal;
-     font-size: 40px;
-     margin-top: -150px;
-     margin-bottom: 0px;
-     padding: 0px 20px 0px 0px;
-     font-size: 70px;
-    
+    font-size: 40px;
+    margin-top: -150px;
+    margin-bottom: 0px;
+    padding: 0px 20px 0px 0px;
+    font-size: 70px;
+
 }
-.text-card p{
+
+.text-card p {
     padding: 0px 50px 0px 0pxs;
 }
-.text-card .buttons{
+
+.text-card .buttons {
     display: flex;
     flex-wrap: wrap;
     gap: 14px;
     margin-top: 30px;
-   
-   
+
+
 }
-.text-card button{
-      
+
+.text-card button {
+
     padding: 16px 40px;
-     
+
     background-color: black;
     border: white solid 1px;
     border-radius: 50px;
     color: white;
 }
-.text-card .buttons .join-button{
+
+.text-card .buttons .join-button {
     background-color: #E6533C;
     border: none;
 }
-.img-card{
+
+.img-card {
     width: 10%;
     position: relative;
-    margin-top:  -100px ;
-    margin-left:  30px;
-     
- 
-     
-    
-     
+    margin-top: -100px;
+    margin-left: 30px;
+
+
+
+
+
 }
-.img-card .workout  {
-    position:absolute;
+
+.img-card .workout {
+    position: absolute;
     background-color: #abaaaa;
     border-radius: 12px;
     z-index: 1;
     top: 126px;
-    right: -50px ;
-    left: -50px; 
+    right: -50px;
+    left: -50px;
     line-height: 1px;
-   
-   
+
+
 }
-.img-card .workout h1{
-    padding:12px 24px 0px 24px  ;
-     
+
+.img-card .workout h1 {
+    padding: 12px 24px 0px 24px;
+
 }
-.img-card .workout p{
-    padding:5px 24px 16px 23px;
-     
+
+.img-card .workout p {
+    padding: 5px 24px 16px 23px;
+
 }
- 
-.img-card img{
-    width:330px;
+
+.img-card img {
+    width: 330px;
     height: 550px;
     margin-left: -250px;
 }
-.img-card .tutorial{
+
+.img-card .tutorial {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -168,97 +181,109 @@ body {
     line-height: 1px;
     z-index: 2;
 }
-.img-card .tutorial .circle{
+
+.img-card .tutorial .circle {
     width: 37px;
-    height:30px;
+    height: 30px;
     border-radius: 100%;
     margin-left: 10px;
     background-color: #E6533C;
 }
-.img-card .tutorial h1{
-    padding:10px 25px 0px 12px ;
+
+.img-card .tutorial h1 {
+    padding: 10px 25px 0px 12px;
 }
-.img-card .tutorial p{
+
+.img-card .tutorial p {
     padding: 0px 12px 8px 12px;
 }
 
 /*--------------------- hatits styles---------------------- */
 
-.habits{
-    padding:   0px  130px 0px 0px ; 
-    margin:50px  0px 0px  190px;
+.habits {
+    padding: 0px 130px 0px 0px;
+    margin: 50px 0px 0px 190px;
 }
- .habits .habite-text{
+
+.habits .habite-text {
     text-align: center;
- }
-.habits .habite-text h1{
-   margin-bottom: 0px;
+}
+
+.habits .habite-text h1 {
+    margin-bottom: 0px;
     font-size: 50px;
 }
- 
-.habits .habit-cards{
+
+.habits .habit-cards {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    margin-top:  50px; 
-    justify-content:space-around;
-    align-items: center; 
-    margin-right: -100px; 
-     
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: -100px;
+
 }
+
 .habit-cards .habits-card {
-    text-align: center; 
-        
+    text-align: center;
+
 }
-.habit-cards .habits-card img{
+
+.habit-cards .habits-card img {
     border-radius: 100px;
-    padding:  0px 15px;
+    padding: 0px 15px;
 }
-.habit-cards .habits-card h1{
-    margin :30px 0px 0px 0px;
-    
+
+.habit-cards .habits-card h1 {
+    margin: 30px 0px 0px 0px;
+
 }
-.habit-cards .habits-card p{
-     margin-top: 6px;
+
+.habit-cards .habits-card p {
+    margin-top: 6px;
 }
 
 
 /* -----------=====================runs styles---------------============================= */
- 
-.run{
+
+.run {
     display: flex;
-    padding:   0px  130px 0px 0px ; 
-    margin:50px  0px 0px  190px;
-    gap: 165px; 
-    justify-content: space-between; 
+    padding: 0px 130px 0px 0px;
+    margin: 50px 0px 0px 190px;
+    gap: 165px;
+    justify-content: space-between;
     align-items: center;
 }
-.run .run-text{
+
+.run .run-text {
     padding: 40px 0px 40px 54px;
 }
-.run .run-text h1{
+
+.run .run-text h1 {
     font-size: 50px;
-    font-weight:443px;
+    font-weight: 443px;
     margin-bottom: 0px;
 }
 
 
-.run .run-text .join-button{ 
-    padding: 16px 71px; 
+.run .run-text .join-button {
+    padding: 16px 71px;
     border: none;
     border-radius: 50px;
     color: white;
     padding: 16px 40px;
     background-color: #E6533C;
-     
-         
-    }
- 
-.run  .run-img{
-   
+
+
+}
+
+.run .run-img {
+
     padding: 30px 32px 29px 0px;
 }
-.run   img{
+
+.run img {
     width: 366px;
     height: 312px;
     border-radius: 18px;
@@ -266,30 +291,178 @@ body {
 
 /* ======================= ---exercise styles---------======== */
 
- .exercise{
-    padding:   0px  130px 0px 0px ; 
-    margin:50px  0px 0px  190px;
+.exercise {
+    padding: 0px 130px 0px 0px;
+    margin: 50px 0px 0px 190px;
     text-align: start;
-     
- }
- .exercise .exercise-imgs {
-    /* display: flex;
-    flex-wrap: wrap; */
-     
-    
- }
- .exercise .exercise-imgs .img-card{
+
+}
+
+.exercise .exercise-imgs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.exercise .exercise-imgs .img-card {
     position: relative;
- }
- .exercise .exercise-imgs .img-card  .img{
+}
+
+.exercise .exercise-imgs .img-card .img {
     position: absolute;
- }
- .exercise .exercise-imgs .img-card  .img p{
+}
+
+.exercise .exercise-imgs .img-card .img p {
     z-index: 1;
     color: black;
- }
- 
- .exercise .exercise-imgs .img-card  img{
+}
+
+.exercise .exercise-imgs .img-card img {
     width: 366px;
     height: 312px;
- }
+}
+
+/* =======---Calculator styles=========== - */
+#Calculator {
+    padding-bottom: 30px;
+}
+
+.Calculator-heading {
+    text-align: center;
+    margin: 88px 385px 88px 385px;
+
+
+
+}
+
+.Calculator-heading h1 {
+    font-size: 50px;
+}
+
+.Calculator-chart {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding: 50px -200px 30px 190px;
+
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #363636;
+
+
+
+}
+
+.Calculator-chart .chart-card {
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #e4e1e1;
+    margin-top: 52px;
+    width: 30%;
+}
+
+
+th {
+    padding: 6px 120px 4px 18px;
+    border: 1px solid #e4e1e1;
+    text-align: left;
+}
+
+td {
+    padding: 6px 0px 6px 18px;
+
+    border: 1px solid #e4e1e1;
+    text-align: left;
+}
+
+
+.Calculator-chart .chart-card-right {
+    margin-top: 100px;
+    padding-right: 200px;
+    width: 30%;
+}
+
+
+form {
+    margin-top: 34px;
+
+}
+
+.input {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: start;
+    gap: 12px;
+
+
+}
+
+input {
+    padding: 13px 0px 13px 20px;
+    border-radius: 8px;
+    width: 50%;
+}
+
+.input select {
+    width: 50%;
+    padding: 13px 0px 13px 20px;
+    border-radius: 8px;
+}
+
+select {
+    width: 100%;
+    padding: 13px 0px 13px 20px;
+    border-radius: 8px;
+}
+
+
+form button {
+
+    padding: 16px 40px;
+    margin-top: 34px;
+    margin-bottom: 50px;
+    background-color: black;
+    border: white solid 1px;
+    border-radius: 50px;
+    color: white;
+    background-color: #E6533C;
+    border: none;
+}
+
+
+/*---------------------------------- team styles--------------------      */
+#team {
+    margin: 50px 0px 0px 190px;
+    margin: 50px 190px 88px 190px;
+
+}
+
+.team-text {
+    text-align: center;
+}
+
+.team-imgs {
+    display: grid;
+    margin-top: 58px;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 1em;
+    background-color: #b4b0b0;
+    padding: 20px;
+    margin-right: -100px;
+    border-radius: 18px;
+}
+
+.team-imgs img {
+    height: 272px;
+    width: 272px;
+    border-radius: 18px;
+
+}
