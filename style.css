@@ -458,7 +458,7 @@ form button {
     grid-gap: 1em;
     background-color: #b4b0b0;
     padding: 20px;
-    margin-right: -70px;
+    margin-right: -50px;
     border-radius: 18px;
 }
 
@@ -467,4 +467,76 @@ form button {
     width: 272px;
     border-radius: 18px;
 
+}
+
+/* footer style */
+
+#footer {
+    background-color: #333333;
+    width: 100%;
+    padding-bottom: 10px;
+
+}
+#footer p{
+    color:#939292
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 66px 190px ;
+    margin-bottom: -79px;
+}
+ 
+
+
+.fitness {
+    padding:  0px 122px 66px 50px;
+    margin-right: 152px;
+    margin-left: -50px;
+}
+
+.fitness h1 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "PT Serif", serif;
+    color: #E6533C;
+  margin:  15px
+}
+
+.fitness p {
+    padding: 0px 102px 76px   0px;
+   
+}
+
+.start {
+    display: flex;
+    text-align: left;
+    align-items: start;
+    position: relative
+}
+
+.started {
+    position: absolute;
+    
+}
+
+.left {
+    left: -70px;
+    margin-left: -250px;
+}
+.right{
+    
+   margin-left: -80px;
+   margin-right: -50px;
+   margin-top:  0px;
+
+}
+hr{
+     margin:   0px   190px;
+      
+}
+#footer .end{
+    text-align: center;
 }
