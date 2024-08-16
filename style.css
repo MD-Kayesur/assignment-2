@@ -290,36 +290,144 @@ body {
 }
 
 /* ======================= ---exercise styles---------======== */
-
-.exercise {
-    padding: 0px 130px 0px 0px;
-    margin: 50px 0px 0px 190px;
-    text-align: start;
-
+#Exercises{ 
+    justify-content: center;
+ align-items: center;
+ text-align: center;
+ 
+  
+    
 }
-
-.exercise .exercise-imgs {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.exercise .exercise-imgs .img-card {
+ .text { 
+ text-align: left;
+ padding: 0px 190px 0px 90px;
+ }
+ .text h1{
+    font-size: 50px;
+ }
+ .text p{
+    padding: 0px 400px 0px 0px;
+ }
+ .all-imges{
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+    align-items: center;
+    justify-content: center;
+    padding-right:190px  ;
     position: relative;
-}
+    margin-top: 58px;
+    
+ }
 
-.exercise .exercise-imgs .img-card .img {
+  
+ .all-imges .width1 img{
+    width: 250 px;
+    height: 245px;
+    
+ }
+ .all-imges .width1{
+     margin-left:   190px;
+     position: relative;
+     
+     
+ }
+ .all-imges .width1 p{
     position: absolute;
-}
+    bottom: 50px;
+   left: 50px;
+ }
+ .all-imges .width2 img{
+    width: 480px;
+    height:250px ;
 
-.exercise .exercise-imgs .img-card .img p {
-    z-index: 1;
-    color: black;
-}
+    
+ }
+ .all-imges .width2{
+    margin: 0px 0px 0px -100px;
+    position: relative;
+    
+ }
+ .all-imges .width2 p{
+     position: absolute;
+     top: 20px;
+     left: 31px;
+      
+  }
+ .all-imges .width3 img{
+    width: 268px;
+    height: 250px;
+    
+ }
+ .all-imges .width3{
+    margin: -10px;
+    padding: 0;
+    position: relative;
+    background-image: linear-gradient();
+ }
+ .all-imges .width3 p{
+    position: absolute;
+     padding:  0px 50px 0px 0px;
+    left: 27px; 
+    bottom:21px ;
+  }
 
-.exercise .exercise-imgs .img-card img {
-    width: 366px;
-    height: 312px;
-}
+ .all-imges .width4 img{
+width: 350px;
+height: 250px;
+margin-top: -20px;
+ }
+ .all-imges .width4{
+    margin-left: 190px;
+    position: relative;
+ }
+
+ .all-imges .width4 p{
+    position: absolute;
+    top:  0px;
+    right: 31px; 
+    text-align: right;
+    padding: 0px 0px 0px 150px;
+  }
+  
+ .all-imges .width5 img{
+    width: 288px;
+    height: 250px;
+    margin-top: -20px;
+    margin-left: -20px;
+ }
+ .all-imges .width5{
+    margin: 0px;
+    position: relative;
+    
+ }
+ .all-imges .width5 p{
+    position: absolute;
+    bottom: 23px;
+    left:34px ; 
+    text-align: left;
+    padding: 0px  150px 0px 0px;
+     
+  }
+ .all-imges .width6 img{
+    width: 370px;
+    height: 250px;
+    margin-top: -20px;
+    margin-left: -24px;
+    
+ }
+ .all-imges .width6{
+    margin: 0px 0px 0px -90px;
+    position: relative;
+
+ }
+ .all-imges .width6 p{
+    position: absolute;
+    bottom: 23px;
+    left:34px ; 
+    text-align: left;
+    padding: 0px  150px 0px 0px;
+     
+  }
 
 /* =======---Calculator styles=========== - */
 #Calculator {
@@ -456,7 +564,7 @@ form button {
     margin-top: 58px;
     grid-template-columns: repeat(3, 2fr);
     grid-gap: 1em;
-    background-color: #b4b0b0;
+    background-color: #373737;
     padding: 20px;
     margin-right: -50px;
     border-radius: 18px;
