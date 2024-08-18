@@ -62,14 +62,11 @@ body {
 /* - ---=====================----------------nave card styles ----======================-- - */
 
 #nav-card {
-    display: flex;
-
+    display: flex; 
     padding: 0px 130px 0px 0px;
     margin: 50px 0px 0px 190px;
-    justify-content: space-between;
-
-    gap: 167px;
-    /* 167 */
+    justify-content: space-between; 
+    gap: 167px; 
     flex-wrap: wrap;
 
 
@@ -249,6 +246,7 @@ body {
 
 .run {
     display: flex;
+    flex-wrap: wrap;
     padding: 0px 130px 0px 0px;
     margin: 50px 0px 0px 190px;
     gap: 165px;
@@ -591,6 +589,7 @@ form button {
 
 .last-section {
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: start;
     padding: 66px 190px ;
@@ -603,6 +602,7 @@ form button {
     padding:  0px 122px 66px 50px;
     margin-right: 152px;
     margin-left: -50px;
+    
 }
 
 .fitness h1 {
@@ -633,12 +633,15 @@ form button {
 .left {
     left: -70px;
     margin-left: -250px;
+     
 }
 .right{
     
    margin-left: -80px;
    margin-right: -50px;
    margin-top:  0px;
+   width: 50%;
+   
 
 }
 hr{
@@ -650,8 +653,31 @@ hr{
 }
 
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:430px) {
+    body{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
     .team-imgs{
         grid-template-columns: repeat(1,1fr);
+    }
+    .started{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+    }
+    .nav-bar{
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #nav-card{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .img-card  {
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
     }
 }
