@@ -577,7 +577,7 @@ form button {
 
 }
 
-/* footer style */
+/* <!--======================= footer styles =========================--> */
 
 #footer {
     background-color: #333333;
@@ -647,4 +647,11 @@ hr{
 }
 #footer .end{
     text-align: center;
+}
+
+
+@media screen and (max-width:576px) {
+    .team-imgs{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
