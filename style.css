@@ -139,7 +139,8 @@ body {
 
 .img-card .workout {
     position: absolute;
-    background-color: #abaaaa;
+    background-color: #5f5d5d;
+    
     border-radius: 12px;
     z-index: 1;
     top: 126px;
@@ -171,7 +172,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #abaaaa;
+    background-color: #5e5e5e;
+   
     border-radius: 12px;
     left: -330px;
     bottom: 70px;
@@ -657,8 +659,16 @@ hr{
 }
 
 
-@media screen and (min-width:300px) and (max-width:550px) {
+@media screen and (max-width:550px) {
   
+.nav-bar{
+    flex-direction: column;
+}
+
+.nav-bar-left ul{
+    flex-direction: column;
+}
+    /* #nav-card- media */
 #nav-card {
     display: flex; 
     flex-direction: column;
@@ -699,8 +709,8 @@ hr{
 .img-card .workout { 
     top:  -60px;
       margin: 0 auto;
-    right: -40px;
-    left: 50px;  
+    right:  -50px;
+    left: 90px;  
      
 }
 
@@ -724,8 +734,8 @@ hr{
 
 .img-card .tutorial {
        margin: 0 auto;
-   right: 10px;
-    left:   10px;
+   right:  40px;
+    left:    -10px;
     bottom: 100px;
 }
 
