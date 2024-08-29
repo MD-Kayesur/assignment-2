@@ -112,7 +112,7 @@ body {
 
 .text-card button {
 
-    padding: 10px 30px;
+    padding: 10px 20px;
 
     background-color: black;
     border: white solid 1px;
@@ -685,6 +685,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(2,2fr);
      margin-right: 0px;
+    
 }
 
  
