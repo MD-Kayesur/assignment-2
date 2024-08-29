@@ -698,7 +698,7 @@ hr{
 
 .img-card .workout { 
     top:  -60px;
-      
+      margin: 0 auto;
     right: -40px;
     left: 50px;  
      
@@ -723,7 +723,7 @@ hr{
 }
 
 .img-card .tutorial {
-       
+       margin: 0 auto;
    right: 10px;
     left:   10px;
     bottom: 100px;
