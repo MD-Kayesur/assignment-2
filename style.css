@@ -657,7 +657,7 @@ hr{
 }
 
 
-@media screen and (max-width:450px) {
+@media screen and (min-width:300px) and (max-width:550px) {
   
 #nav-card {
     display: flex; 
@@ -699,8 +699,8 @@ hr{
 .img-card .workout { 
     top:  -60px;
       
-    right: -50px;
-    left: 90px;  
+    right: -40px;
+    left: 50px;  
      
 }
 
@@ -724,8 +724,8 @@ hr{
 
 .img-card .tutorial {
        
-   right: 50px;
-    left:    30px;
+   right: 10px;
+    left:   10px;
     bottom: 100px;
 }
 
