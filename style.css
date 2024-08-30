@@ -27,7 +27,8 @@ body {
 }
 
 .nav-bar-left ul {
-    display: flex;
+    display: flex; 
+    flex-wrap: wrap;
     gap: 20px;
     border: #565454 solid .5px;
     padding: 4px;
@@ -220,13 +221,15 @@ body {
     margin-top: 50px;
     justify-content: space-around;
     align-items: center;
-    margin-right: -100px;
+    
+    width: calc(100% - 40px);
 
 }
 
 .habit-cards .habits-card {
     text-align: center;
-
+  
+ 
 }
 
 .habit-cards .habits-card img {
@@ -661,13 +664,7 @@ hr{
 
 @media screen and (max-width:550px) {
   
-.nav-bar{
-    flex-direction: column;
-}
-
-.nav-bar-left ul{
-    flex-direction: column;
-}
+ 
     /* #nav-card- media */
 #nav-card {
     display: flex; 
@@ -756,5 +753,36 @@ hr{
 
  
 }
+
+/*--------------------- hatits styles---- media------------------ */
+
+.habits {
+    padding: 0px;
+    margin:  0px;
+   width:calc(100% - 40px);
+    
+}
+
+.habits .habite-text {
+    text-align: center;
+    width: 100%;
+     
+}
+
+.habits .habite-text h1{
+    font-size: 30px;
+}
+
+.habits .habit-cards{
+width:100%
+}
+ 
+ 
+
+ 
+ 
+
+ 
+
 
  
