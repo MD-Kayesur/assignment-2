@@ -215,7 +215,7 @@ body {
     font-size: 50px;
 }
 .habits .habite-text p{
-    color: #939292;
+    color: #767474;
 }
 .habits .habit-cards {
     display: flex;
@@ -247,7 +247,7 @@ body {
 
 .habit-cards .habits-card p {
     margin-top: 6px;
-    color: #939292;
+    color: #767575;
 }
 
 
