@@ -207,13 +207,16 @@ body {
 
 .habits .habite-text {
     text-align: center;
+    
 }
 
 .habits .habite-text h1 {
     margin-bottom: 0px;
     font-size: 50px;
 }
-
+.habits .habite-text p{
+    color: #939292;
+}
 .habits .habit-cards {
     display: flex;
     flex-wrap: wrap;
@@ -244,6 +247,7 @@ body {
 
 .habit-cards .habits-card p {
     margin-top: 6px;
+    color: #939292;
 }
 
 
@@ -765,7 +769,7 @@ hr{
 
 .habits .habite-text {
     text-align: center;
-    width: 100%;
+    margin-left: 30px;
      
 }
 
