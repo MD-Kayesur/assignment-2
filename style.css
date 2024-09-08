@@ -27,7 +27,7 @@ body {
 }
 
 .nav-bar-left ul {
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
     gap: 20px;
     border: #565454 solid .5px;
@@ -64,20 +64,18 @@ body {
 
 #nav-card {
     display: flex; 
-    padding: 50px 130px 0px 0px;
-    margin: 50px 0px 0px 190px;
+    padding: 50px  130px 0px 0px;
+    margin:  0px 0px 0px 190px;
     justify-content: space-between; 
-    gap: 167px; 
-    flex-wrap: wrap;
-
-
+    gap: 167px;
+ 
 }
 
 #nav-card .text-card {
     width: 50%;
-    margin: 95px 0px 0px -50px;
-
-
+    margin: 5px 0px 0px -50px;
+    padding-left:  0px;
+     
 }
 
 #nav-card .text-card span {
@@ -90,8 +88,8 @@ body {
     font-family: "PT Serif", serif;
     font-weight: 700;
     font-style: normal;
-    font-size:40px;
-    margin-top: -150px;
+    font-size: 40px;
+    margin-top: 150px;
     margin-bottom: 0px;
     padding: 0px 20px 0px 0px;
     font-size: 70px;
@@ -127,21 +125,16 @@ body {
 }
 
 .img-card {
-    width: 10%;
+    width:  10%;
     position: relative;
-    margin-top: -100px;
-    margin-left: 30px;
-
-
-
-
+      
 
 }
 
 .img-card .workout {
     position: absolute;
     background-color: #5f5d5d;
-    
+
     border-radius: 12px;
     z-index: 1;
     top: 126px;
@@ -174,7 +167,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #5e5e5e;
-   
+
     border-radius: 12px;
     left: -330px;
     bottom: 70px;
@@ -202,21 +195,23 @@ body {
 
 .habits {
     padding: 0px 130px 0px 0px;
-    margin: 50px 0px 0px 190px;
+    margin: 50px 0px 0px 100px;
 }
 
 .habits .habite-text {
     text-align: center;
-    
+
 }
 
 .habits .habite-text h1 {
     margin-bottom: 0px;
     font-size: 50px;
 }
-.habits .habite-text p{
+
+.habits .habite-text p {
     color: #767474;
 }
+
 .habits .habit-cards {
     display: flex;
     flex-wrap: wrap;
@@ -224,15 +219,15 @@ body {
     margin-top: 50px;
     justify-content: space-around;
     align-items: center;
-    
+
     width: calc(100% - 40px);
 
 }
 
 .habit-cards .habits-card {
     text-align: center;
-  
- 
+
+
 }
 
 .habit-cards .habits-card img {
@@ -253,29 +248,40 @@ body {
 
 /* -----------=====================runs styles---------------============================= */
 
+#run{
+    padding: 30px 40px;
+    margin-top: 100px;
+}
 .run {
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 130px 0px 0px;
-    margin: 50px 0px 0px 190px;
-    gap: 165px;
+    padding:  0px   40px 0px   0px;
+    margin: 0px   auto;
+    background-color: #5b5858;
+    gap:   65px;
+    max-width: calc(100% - 40px);
+    justify-items:center;
     justify-content: space-between;
     align-items: center;
+    border-radius: 18px;
 }
 
 .run .run-text {
-    padding: 40px 0px 40px 54px;
+    padding: 40px 40px ;
+    width: 50%;
 }
 
 .run .run-text h1 {
     font-size: 50px;
     font-weight: 443px;
     margin-bottom: 0px;
+  
+     
 }
-
+ 
 
 .run .run-text .join-button {
-    padding: 16px 71px;
+    
     border: none;
     border-radius: 50px;
     color: white;
@@ -288,153 +294,172 @@ body {
 .run .run-img {
 
     padding: 30px 32px 29px 0px;
+    
 }
 
 .run img {
-    width: 366px;
-    height: 312px;
+    width: 356px;
+    height: 100%;
     border-radius: 18px;
 }
 
 /* ======================= ---exercise styles---------======== */
-#Exercises{ 
+#Exercises {
     justify-content: center;
- align-items: center;
- text-align: center;
- 
-  
-    
+    align-items: center;
+    text-align: center;
+
+
+
 }
- .text { 
- text-align: left;
- padding: 0px 190px 0px 100px;
- }
- .text h1{
+
+.text {
+    text-align: left;
+    padding: 0px 190px 0px 100px;
+}
+
+.text h1 {
     font-size: 50px;
- }
- .text p{
+}
+
+.text p {
     padding: 0px 400px 0px 0px;
- }
- .all-imges{
+}
+
+.all-imges {
     display: grid;
-    grid-template-columns: repeat(3,0fr);
+    grid-template-columns: repeat(3, 0fr);
     align-items: center;
     justify-content: center;
-    padding-right:190px  ;
+    padding-right: 190px;
     position: relative;
     margin-top: 58px;
-    
- }
 
-  
- .all-imges .width1 img{
-    width: 250 px;
+}
+
+
+.all-imges .width1 img {
+    width: 250px;
     height: 245px;
-    
- }
- .all-imges .width1{
-     margin-left:   190px;
-     position: relative;
-     
-     
- }
- .all-imges .width1 p{
+
+}
+
+.all-imges .width1 {
+    margin-left: 190px;
+    position: relative;
+
+
+}
+
+.all-imges .width1 p {
     position: absolute;
     bottom: 50px;
-   left: 50px;
- }
- .all-imges .width2 img{
-    width: 480px;
-    height:250px ;
+    left: 50px;
+}
 
-    
- }
- .all-imges .width2{
+.all-imges .width2 img {
+    width: 480px;
+    height: 250px;
+
+
+}
+
+.all-imges .width2 {
     margin: 0px 0px 0px -100px;
     position: relative;
-    
- }
- .all-imges .width2 p{
-     position: absolute;
-     top: 20px;
-     left: 31px;
-      
-  }
- .all-imges .width3 img{
+
+}
+
+.all-imges .width2 p {
+    position: absolute;
+    top: 20px;
+    left: 31px;
+
+}
+
+.all-imges .width3 img {
     width: 268px;
     height: 250px;
-    
- }
- .all-imges .width3{
+background-image: linear-gradient(180deg, red blue) ;
+}
+
+.all-imges .width3 {
     margin: -10px;
     padding: 0;
     position: relative;
-    background-image: linear-gradient();
- }
- .all-imges .width3 p{
-    position: absolute;
-     padding:  0px 50px 0px 0px;
-    left: 27px; 
-    bottom:21px ;
-  }
+    
+}
 
- .all-imges .width4 img{
-width: 350px;
-height: 250px;
-margin-top: -20px;
- }
- .all-imges .width4{
+.all-imges .width3 p {
+    position: absolute;
+    padding: 0px 50px 0px 0px;
+    left: 27px;
+    bottom: 21px;
+}
+
+.all-imges .width4 img {
+    width: 350px;
+    height: 250px;
+    margin-top: -20px;
+}
+
+.all-imges .width4 {
     margin-left: 190px;
     position: relative;
- }
+}
 
- .all-imges .width4 p{
+.all-imges .width4 p {
     position: absolute;
-    top:  0px;
-    right: 31px; 
+    top: 0px;
+    right: 31px;
     text-align: right;
     padding: 0px 0px 0px 150px;
-  }
-  
- .all-imges .width5 img{
+}
+
+.all-imges .width5 img {
     width: 288px;
     height: 250px;
     margin-top: -20px;
     margin-left: -20px;
- }
- .all-imges .width5{
+}
+
+.all-imges .width5 {
     margin: 0px;
     position: relative;
-    
- }
- .all-imges .width5 p{
+
+}
+
+.all-imges .width5 p {
     position: absolute;
     bottom: 23px;
-    left:34px ; 
+    left: 34px;
     text-align: left;
-    padding: 0px  150px 0px 0px;
-     
-  }
- .all-imges .width6 img{
+    padding: 0px 150px 0px 0px;
+
+}
+
+.all-imges .width6 img {
     width: 370px;
     height: 250px;
     margin-top: -20px;
     margin-left: -24px;
-    
- }
- .all-imges .width6{
+
+}
+
+.all-imges .width6 {
     margin: 0px 0px 0px -90px;
     position: relative;
 
- }
- .all-imges .width6 p{
+}
+
+.all-imges .width6 p {
     position: absolute;
     bottom: 23px;
-    left:34px ; 
+    left: 34px;
     text-align: left;
-    padding: 0px  150px 0px 0px;
-     
-  }
+    padding: 0px 150px 0px 0px;
+
+}
 
 /* =======---Calculator styles=========== - */
 #Calculator {
@@ -592,8 +617,9 @@ form button {
     padding-bottom: 10px;
 
 }
-#footer p{
-    color:#939292
+
+#footer p {
+    color: #939292
 }
 
 .last-section {
@@ -601,17 +627,17 @@ form button {
     /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: start;
-    padding: 66px 190px ;
+    padding: 66px 190px;
     margin-bottom: -79px;
 }
- 
+
 
 
 .fitness {
-    padding:  0px 122px 66px 50px;
+    padding: 0px 122px 66px 50px;
     margin-right: 152px;
     margin-left: -50px;
-    
+
 }
 
 .fitness h1 {
@@ -619,12 +645,12 @@ form button {
     font-size: 50px;
     font-family: "PT Serif", serif;
     color: #E6533C;
-  margin:  15px
+    margin: 15px
 }
 
 .fitness p {
-    padding: 0px 102px 76px   0px;
-   
+    padding: 0px 102px 76px 0px;
+
 }
 
 .start {
@@ -636,157 +662,316 @@ form button {
 
 .started {
     position: absolute;
-    
+
 }
 
 .left {
     left: -70px;
     margin-left: -250px;
-     
-}
-.right{
-    
-   margin-left: -80px;
-   margin-right: -50px;
-   margin-top:  0px;
-   width: 50%;
-   
 
 }
-hr{
-     margin:   0px   190px;
-      
+
+.right {
+
+    margin-left: -80px;
+    margin-right: -50px;
+    margin-top: 0px;
+    width: 50%;
+
+
 }
-#footer .end{
+
+hr {
+    margin: 0px 190px;
+
+}
+
+#footer .end {
     text-align: center;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
 
 @media screen and (max-width:550px) {
-  
- 
+
+
     /* #nav-card- media */
-#nav-card {
-    display: flex; 
-    flex-direction: column;
-    padding: 0px  0px 0px 0px;
-    margin:  0px 0px 0px   0px;
-    
-   
-}
+    #nav-card {
+        
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
 
-#nav-card .text-card {
-    width:calc(100% - 40px) ;
-    margin: 0 auto  ; 
 
-} 
-.text-card h1 { 
-     margin-top: 0px;
-     padding: 0 auto;
-     font-size: 50px;
-} 
-.text-card p {
-    padding:0 auto;
-} 
-.text-card .buttons {
-    display: grid;
-    grid-template-columns: repeat(2,2fr);
-     margin-right: 0px;
-    
-}
+    }
 
- 
-.img-card {
-    width:calc(100% - 40%) ; 
-    margin: 0 auto;
+    #nav-card .text-card {
+        width: calc(100% - 40px);
+        margin: 0 auto;
 
-   
-}
+    }
 
-.img-card .workout { 
-    top:  190px;
-      margin: 0 auto;
-    right:  -50px;
-    left: 40px;  
-     
-}
+    .text-card h1 {
+        margin-top: 0px;
+        padding: 0 auto;
+        font-size: 50px;
+    }
 
-.img-card .workout h1 {
-    padding:0 auto;
-    
+    .text-card p {
+        padding:  0px;
+    }
 
-}
+    .text-card .buttons {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        margin-right: 0px;
 
-.img-card .workout p {
-   padding:0 auto;
+    }
 
-}
 
-.img-card img {
-    width:  0 auto ;
-    margin-left:-60px;
-    
-    
-}
+    .img-card {
+        width: calc(100% - 40%);
+        margin: 0 auto;
 
-.img-card .tutorial {
-       margin: 0 auto;
-   right:  40px;
-    left:    -10px;
-    bottom: 100px;
-}
 
-.img-card .tutorial .circle {
-     
-     
-    margin-right:  10px;
-    
-}
+    }
 
-.img-card .tutorial h1 {
-    padding: 0px  ;
-}
+    .img-card .workout {
+        top: 190px;
+        margin: 0 auto;
+        right: -50px;
+        left: 40px;
 
-.img-card .tutorial p {
-    padding: 0px ;
-}
+    }
 
- 
-}
+    .img-card .workout h1 {
+        padding: 0 auto;
 
-/*--------------------- hatits styles---- media------------------ */
+
+    }
+
+    .img-card .workout p {
+        padding: 0 auto;
+
+    }
+
+    .img-card img {
+        width: 0 auto;
+        margin-left: -60px;
+
+
+    }
+
+    .img-card .tutorial {
+        margin: 0 auto;
+        right: 40px;
+        left: -10px;
+        bottom: 100px;
+    }
+
+  
+
+    .img-card .tutorial h1 {
+        padding: 0px;
+    }
+
+    .img-card .tutorial p {
+        padding: 0px;
+    }
+
+
+
+
+
+    /*--------------------- hatits styles---- media------------------ */
 
 .habits {
     padding: 0px;
-    margin:  0px;
-   width:calc(100% - 40px);
-    
+    margin: 0px;
+    width: calc(100% - 40px);
+
 }
 
 .habits .habite-text {
     text-align: center;
     margin-left: 30px;
-     
+
 }
 
-.habits .habite-text h1{
+.habits .habite-text h1 {
     font-size: 30px;
 }
 
-.habits .habit-cards{
-width:100%
+.habits .habit-cards {
+    width: 100%
+}
+
+/*------------------------ run media quarry */
+#run{
+    padding: 0px;
+}
+.run {
+     
+    padding:  0px ;
+}
+.run .run-text {
+     width: 100%;
+}
+.run .run-text h1{
+    width: 100%;
+}
+
+.run .run-text .join-button {
+    
+    
+    padding: 16px 40px;
+    width: 100%;
+}
+/*               ====== ---exercise styles----quarry-----=========== --> */
+
+
+.text {
+     
+    padding: 0px  0px 0px 20px;
+}
+
+.text h1 {
+    font-size: 50px;
+}
+
+.text p {
+    padding: 0px  0px 0px 10px;
+}
+
+
+
+
+
+
+
+.all-imges {
+    
+    grid-template-columns: repeat(1, 1fr); 
+    padding: 0px 20px;
+     gap: 10px;
+    
+
+}
+
+
+
+
+
+
+.all-imges .width1 img {
+    width: 100%;
+    height: 245px;
+
+}
+
+.all-imges .width1 {
+    margin: 0px;
+    
+ 
+    
+
+
+}
+
+ 
+
+.all-imges .width2 img {
+    width: 100%;
+    height: 250px;
+
+
+}
+
+.all-imges .width2 {
+    margin: 0px 0px 0px  0px;
+   
+
+}
+
+ 
+
+.all-imges .width3 img {
+    width: 100%;
+    height: 250px;
+
+}
+
+.all-imges .width3 {
+    margin:  0px;
+     
+ 
+}
+
+ 
+.all-imges .width4 img {
+    width: 100%;
+    height: 250px;
+    margin-top:  0px;
+}
+
+.all-imges .width4 {
+    margin-left:  0px;
+   
+}
+
+ 
+
+.all-imges .width5 img {
+    width: 100%;
+    height: 250px;
+    margin-top:   0px;
+    margin-left:  0px;
+}
+
+.all-imges .width5 {
+    margin: 0px;
+     
+
+}
+
+ 
+
+.all-imges .width6 img {
+    width: 100%;
+    height: 250px;
+    margin-top:  0px;
+    margin-left:  0px;
+
+}
+
+.all-imges .width6 {
+    margin: 0px 0px 0px  0px;
+    position: relative;
+
+}
+
+.Calculator-heading{
+    margin:  0px;
 }
  
- 
+
+.Calculator-chart .chart-card {
+    margin-left:  20px;
+     
+}
+.Calculator-chart .chart-card-right {
+    margin-top:   0px;
+    padding-right: 0px;
+    width:calc(100% - 50px ) ;
+     
+}
+    
+}
+
 
  
  
-
- 
-
-
  
