@@ -826,15 +826,33 @@ hr {
 }
 .run-img img{
     width:  100%;
-    margin-left: 15px;
+    
 }
+
+ 
+.run .run-img {
+
+    padding:  0px;
+    
+}
+
+.run img {
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
 .run .run-text .join-button {
-    
-    
+     
     padding: 16px 40px;
     width: 100%;
 }
-/*               ====== ---exercise styles----quarry-----=========== --> */
+/* -------------------====== ---exercise styles----quarry-----=========== --> */
 
 
 .text {
