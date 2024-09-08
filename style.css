@@ -659,7 +659,8 @@ form button {
     align-items: start;
     position: relative
 }
-
+ 
+ 
 .started {
     position: absolute;
 
@@ -971,7 +972,7 @@ hr {
      
 }
 table{
-    width:calc(100% - 0px)  ;
+    width:calc(100% - 10px)  ;
 }
 tbody {
       
@@ -997,10 +998,90 @@ form  .join-button {
     width: 100%;
     
 }
+ /* ----------------------------- image midea quarry */
+
+#team {
+    margin:  0px;
+    margin:  20px;
+
+}
+.team-imgs {
+     
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    background-color: #373737;
+    padding:  0px;
+    margin:40px  0px;
+   
+}
+
+.team-imgs img {
+   
+    width:100%;
  
+
+}
+/*------------------------ footers media quarry */
+.last-section {
+ 
+   flex-direction: column;
+    align-items: start;
+   
+    margin-bottom: -79px;
+}
+.fitness {
+    padding: 0px;
+    margin-right: -220px;
+    margin-left:  -150px;
+    width:  ;
+
+}
+
+.fitness h1 {
+    
+    
+    margin: 0px
+}
+
+.fitness p {
+    padding-left:   0px;
+    width: auto;
+
+}
+.start{
+    position: static;
+}
+.started {
+     margin-right:  0px;
+     position:static;
+   
+}
+.left{
+    padding-left: 110px;
+    margin-bottom: 40px;
+    
+}
+.right{
+    margin-bottom: 40px;
+     
+}
+hr {
+    margin: 0px  40px;
+
+}
+
+ 
+ 
+#footer .end {
+    margin: 20px 40px;
+}
+  
 
  
     
+
+
+
 }
 
 
