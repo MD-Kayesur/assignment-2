@@ -953,6 +953,8 @@ hr {
 
 }
 
+/* ----------------------Calculator media quarrys  */
+
 .Calculator-heading{
     margin:  0px;
 }
@@ -974,8 +976,25 @@ table {
     
     width:calc( 100% - 40px);
 }
+th {
+    padding: 6px   100px 4px 18px;
+     
+}
+
+td {
+    padding: 6px 0px 6px 18px;
+
+ 
+}
 
 
+form  .join-button {
+  
+     
+    padding: 16px 40px;
+    width: 100%;
+    
+}
  
 
  
