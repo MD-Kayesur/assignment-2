@@ -970,14 +970,16 @@ hr {
     width:calc(100% - 50px ) ;
      
 }
-
-table {
-     
-    
-    width:calc( 100% - 40px);
+table{
+    width:calc(100% - 0px)  ;
+}
+tbody {
+      
+    width: 100%  ;
 }
 th {
-    padding: 6px   100px 4px 18px;
+    padding:10px 20px;
+
      
 }
 
